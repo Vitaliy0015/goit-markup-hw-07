@@ -38,6 +38,75 @@
                     </li>
                 </ul>
             </address>
+            <button type="button" data-modal-open class="open-menu-btn">
+                <svg class="menu-open-svg" width="32" height="22">
+                    <use href="./images/charm_menu-hamburger.svg"></use>
+                </svg>
+            </button>
+        </div>
+        <div class="mob-menu is-hidden" data-modal>
+            <div class="top-menu">
+                <button type="button" data-modal-close class="menu-close-btn">
+                    <svg class="menu-close-svg" width="8" height="8">
+                        <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+                    </svg>
+                </button>
+            </div>
+            <nav class="menu-header-navigation">
+                <ul class="menu-header-list list">
+                    <li class="menu-header-item">
+                        <a class="menu-header-link link" href="./index.html">Studio</a>
+                    </li>
+                    <li class="menu-header-item">
+                        <a class="menu-header-link link" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="menu-header-item">
+                        <a class="menu-header-link link" href="">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="bottom-menu">
+            <address class="menu-header-address">
+                <ul class="menu-header-contacts-list list">
+                    <li class="menu-header-contacts-item">
+                        <a class="menu-header-tel link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                    </li>
+                    <li class="menu-header-contacts-item">
+                        <a class="menu-header-mail link" href="mailto:info@devstudio.com">info@devstudio.com"</a>
+                    </li>
+                </ul>
+            </address>
+            <ul class="menu-header-soc-list list">
+                <li class="menu-header-soc-item">
+                    <a href="" class="team-soc-link link">
+                        <svg class="menu-header-soc-icon" width="16" height="16">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="menu-header-soc-item">
+                    <a href="" class="team-soc-link link">
+                        <svg class="menu-header-soc-icon" width="16" height="16">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="menu-header-soc-item">
+                    <a href="" class="team-soc-link link">
+                        <svg class="menu-header-soc-icon" width="16" height="16">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="menu-header-soc-item">
+                    <a href="" class="team-soc-link link">
+                        <svg class="menu-header-soc-icon" width="16" height="16">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
         </div>
     </header>
     <main>
@@ -396,7 +465,7 @@
             </div>
         </div>
     </footer>
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button class="modal-close-btn" data-modal-close type="button">
                 <svg class="button-close-svg" width="8" height="8">
@@ -450,7 +519,7 @@
                 <button class="modal-btn" type="submit">Send</button>
             </form>
         </div>
-    </div> -->
+    </div>
      <script src="./js/modal.js">
 
     </script>
